@@ -1,1 +1,1 @@
-react18@codebuffdev @nameste-react
+react18@codebuffdev
