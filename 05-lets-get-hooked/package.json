@@ -1,0 +1,23 @@
+{
+    "name": "05-lets-get-hooked",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+        "react"
+    ],
+    "license": "ISC",
+    "author": "codebuffdev",
+    "type": "commonjs",
+    "scripts": {
+        "start": "npx parcel index.html",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "parcel": "^2.16.4"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "@react-buddy/ide-toolbox": "^2.4.0"
+    }
+}
