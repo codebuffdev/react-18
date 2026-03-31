@@ -65,3 +65,49 @@
     margin: 10px;
     cursor: pointer;
 }
+
+/*login btn*/
+
+.login-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+
+    color: white;
+    background-color: #ff5200;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #e64a00;
+    transform: scale(1.05);
+}
+
+.login-btn:active {
+    transform: scale(0.95);
+}
+
+.login-btn:focus {
+    outline: none;
+}
+
+.login-btn {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-btn:hover {
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/*body => filter + search */
+.body-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
